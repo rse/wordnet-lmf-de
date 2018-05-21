@@ -16,7 +16,7 @@ About
 This is a [Node.js](https://nodejs.org/) module shipping the
 [CC-BY-SA-4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html) licensed
 on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
-data file of the [Open-de-WordNet initiative](https://ikum.mediencampus.h-da.de/projekt/open-de-wordnet-initiative/)
+data file of the [Open DE WordNet Initiative](https://ikum.mediencampus.h-da.de/projekt/open-de-wordnet-initiative/)
 plus the corresponding SQLite database file, on-the-fly generated with the
 [wordnet-lmf](https://npmjs.com/wordnet-lmf) module.
 
@@ -53,7 +53,7 @@ Usage
 ```
 
 ```
-Open-de-WordNet 1.0 (2018-05-11) [26 MB, CC-BY-SA-4.0]
+Open DE WordNet 1.0 (2018-05-11) [26 MB, CC-BY-SA-4.0]
 ┌────────────────┬──────────────────────┬──────────────┐
 │ lexicalEntryId │ writtenForm          │ partOfSpeech │
 ├────────────────┼──────────────────────┼──────────────┤
