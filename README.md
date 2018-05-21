@@ -14,8 +14,8 @@ About
 -----
 
 This is a [Node.js](https://nodejs.org/) module shipping the
-[CC-BY-SA-4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html) licensed
-on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
+[CC-BY-SA-4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html) licensed,
+120K words containing, on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
 data file of [Open DE WordNet 1.0](https://github.com/hdaSprachtechnologie/odenet/)
 from the [Open DE WordNet Initiative](https://ikum.mediencampus.h-da.de/projekt/open-de-wordnet-initiative/)
 plus the corresponding SQLite database file, on-the-fly generated with the
