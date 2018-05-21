@@ -15,9 +15,9 @@ About
 
 This is a [Node.js](https://nodejs.org/) module shipping the
 [CC-BY-SA-4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html) licensed
-[WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
+on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
 data file of the [Open-de-WordNet initiative](https://ikum.mediencampus.h-da.de/projekt/open-de-wordnet-initiative/)
-plus the corresponding SQLite database file generated with the
+plus the corresponding SQLite database file, on-the-fly generated with the
 [wordnet-lmf](https://npmjs.com/wordnet-lmf) module.
 
 Installation
