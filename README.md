@@ -54,7 +54,7 @@ Usage
 ```
 
 ```
-Open DE WordNet 1.0 (2018-05-11) [26 MB, CC-BY-SA-4.0]
+Open DE WordNet 1.0 (2019-06-16) [26 MB, CC-BY-SA-4.0]
 ┌────────────────┬──────────────────────┬──────────────┐
 │ lexicalEntryId │ writtenForm          │ partOfSpeech │
 ├────────────────┼──────────────────────┼──────────────┤
