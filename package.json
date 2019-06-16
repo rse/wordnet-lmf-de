@@ -35,7 +35,7 @@
         "import":   "wordnet-lmf -d wordnet-lmf-de.db import -p easysax wordnet-lmf-de.xml"
     },
     "npm-install-fetch": {
-        "name":     "Open DE WordNet 1.0 (2019-06-16) [120K words, CC-BY-SA-4.0]",
+        "name":     "Open DE WordNet 1.3 (2019-06-16) [120K words, CC-BY-SA-4.0]",
         "input":    "https://github.com/hdaSprachtechnologie/odenet/raw/dd2adca79cade336c7c052b285e7343e953cd56c/deWordNet.xml",
         "output":   "wordnet-lmf-de.xml"
     }

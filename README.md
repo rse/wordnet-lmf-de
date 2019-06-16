@@ -16,7 +16,7 @@ About
 This is a [Node.js](https://nodejs.org/) module shipping the
 [CC-BY-SA-4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html) licensed,
 120K words containing, on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
-data file of [Open DE WordNet 1.0](https://github.com/hdaSprachtechnologie/odenet/)
+data file of [Open DE WordNet 1.3](https://github.com/hdaSprachtechnologie/odenet/)
 from the [Open DE WordNet Initiative](https://ikum.mediencampus.h-da.de/projekt/open-de-wordnet-initiative/)
 plus the corresponding SQLite database file, on-the-fly generated with the
 [wordnet-lmf](https://npmjs.com/wordnet-lmf) module.
@@ -54,10 +54,24 @@ Usage
 ```
 
 ```
-Open DE WordNet 1.0 (2019-06-16) [26 MB, CC-BY-SA-4.0]
+Open DE WordNet 1.3 (2019-06-16) [120K words, CC-BY-SA-4.0]
 ┌────────────────┬──────────────────────┬──────────────┐
 │ lexicalEntryId │ writtenForm          │ partOfSpeech │
 ├────────────────┼──────────────────────┼──────────────┤
+│ w26204         │ Schneidbrennerdüse   │ n            │
+│ w40189         │ Nerd                 │ n            │
+│ w51748         │ Zenerdiode           │ n            │
+│ w56117         │ innerdeutsche Grenze │ n            │
+│ w62204         │ Nerd (Neol.)         │ n            │
+│ w69145         │ Porzellanerde        │ n            │
+│ w69146         │ weiße Tonerde        │ n            │
+│ w69149         │ Pfeifenerde          │ n            │
+│ w69358         │ Gartenerdbeere       │ n            │
+│ w92320         │ männerdominiert      │ a            │
+│ w100223        │ Designerdroge        │ n            │
+│ w103172        │ Seltenerdmagnet      │ n            │
+│ w106758        │ Seltenerdmetalle     │ n            │
+│ w110720        │ ebenerdig            │ a            │
 │ w26204         │ Schneidbrennerdüse   │ n            │
 │ w40189         │ Nerd                 │ n            │
 │ w51748         │ Zenerdiode           │ n            │
