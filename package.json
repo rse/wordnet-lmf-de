@@ -20,11 +20,11 @@
     },
     "dependencies": {
         "npm-run-all":             "4.1.5",
-        "npm-install-fetch":       "1.0.7",
-        "wordnet-lmf":             "0.9.8"
+        "npm-install-fetch":       "1.0.8",
+        "wordnet-lmf":             "0.9.9"
     },
     "peerDependencies": {
-        "wordnet-lmf":             "0.9.8"
+        "wordnet-lmf":             "0.9.9"
     },
     "engines": {
         "node":                    ">=8.0.0"
@@ -35,8 +35,8 @@
         "import":   "wordnet-lmf -d wordnet-lmf-de.db import -p easysax wordnet-lmf-de.xml"
     },
     "npm-install-fetch": {
-        "name":     "Open DE WordNet 1.3 (2019-06-16) [120K words, CC-BY-SA-4.0]",
-        "input":    "https://github.com/hdaSprachtechnologie/odenet/raw/dd2adca79cade336c7c052b285e7343e953cd56c/deWordNet.xml",
+        "name":     "Open DE WordNet 1.3 (2019-12-21) [120K words, CC-BY-SA-4.0]",
+        "input":    "https://github.com/hdaSprachtechnologie/odenet/raw/44e0c466fb4655106b51f6e18b0c6b3db0ce7886/deWordNet.xml",
         "output":   "wordnet-lmf-de.xml"
     }
 }
