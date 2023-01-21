@@ -15,7 +15,7 @@ About
 
 This is a [Node.js](https://nodejs.org/) module shipping the
 [CC-BY-SA-4.0](https://spdx.org/licenses/CC-BY-SA-4.0.html) licensed,
-120K words containing, on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
+118K words containing, on-the-fly downloaded [WordNet LMF (XML)](https://github.com/globalwordnet/schemas)
 data file of [Open DE WordNet 1.4](https://github.com/hdaSprachtechnologie/odenet/)
 from the [Open DE WordNet Initiative](https://ikum.mediencampus.h-da.de/projekt/open-de-wordnet-initiative/)
 plus the corresponding SQLite database file, on-the-fly generated with the
@@ -54,7 +54,7 @@ Usage
 ```
 
 ```
-Open DE WordNet 1.4 (2021-10-22) [120K words, CC-BY-SA-4.0]
+Open DE WordNet 1.4 (2022-12-30) [118K words, CC-BY-SA-4.0]
 ┌────────────────┬──────────────────────┬──────────────┐
 │ lexicalEntryId │ writtenForm          │ partOfSpeech │
 ├────────────────┼──────────────────────┼──────────────┤
@@ -62,7 +62,7 @@ Open DE WordNet 1.4 (2021-10-22) [120K words, CC-BY-SA-4.0]
 │ w40189         │ Nerd                 │ n            │
 │ w51748         │ Zenerdiode           │ n            │
 │ w56117         │ innerdeutsche Grenze │ n            │
-│ w62204         │ Nerd (Neol.)         │ n            │
+│ w62204         │ Nerd                 │ n            │
 │ w69145         │ Porzellanerde        │ n            │
 │ w69146         │ weiße Tonerde        │ n            │
 │ w69149         │ Pfeifenerde          │ n            │
@@ -76,7 +76,101 @@ Open DE WordNet 1.4 (2021-10-22) [120K words, CC-BY-SA-4.0]
 │ w40189         │ Nerd                 │ n            │
 │ w51748         │ Zenerdiode           │ n            │
 │ w56117         │ innerdeutsche Grenze │ n            │
-│ w62204         │ Nerd (Neol.)         │ n            │
+│ w62204         │ Nerd                 │ n            │
+│ w69145         │ Porzellanerde        │ n            │
+│ w69146         │ weiße Tonerde        │ n            │
+│ w69149         │ Pfeifenerde          │ n            │
+│ w69358         │ Gartenerdbeere       │ n            │
+│ w92320         │ männerdominiert      │ a            │
+│ w100223        │ Designerdroge        │ n            │
+│ w103172        │ Seltenerdmagnet      │ n            │
+│ w106758        │ Seltenerdmetalle     │ n            │
+│ w110720        │ ebenerdig            │ a            │
+│ w26204         │ Schneidbrennerdüse   │ n            │
+│ w40189         │ Nerd                 │ n            │
+│ w51748         │ Zenerdiode           │ n            │
+│ w56117         │ innerdeutsche Grenze │ n            │
+│ w62204         │ Nerd                 │ n            │
+│ w69145         │ Porzellanerde        │ n            │
+│ w69146         │ weiße Tonerde        │ n            │
+│ w69149         │ Pfeifenerde          │ n            │
+│ w69358         │ Gartenerdbeere       │ n            │
+│ w92320         │ männerdominiert      │ a            │
+│ w100223        │ Designerdroge        │ n            │
+│ w103172        │ Seltenerdmagnet      │ n            │
+│ w106758        │ Seltenerdmetalle     │ n            │
+│ w110720        │ ebenerdig            │ a            │
+│ w26204         │ Schneidbrennerdüse   │ n            │
+│ w40189         │ Nerd                 │ n            │
+│ w51748         │ Zenerdiode           │ n            │
+│ w56117         │ innerdeutsche Grenze │ n            │
+│ w62204         │ Nerd                 │ n            │
+│ w69145         │ Porzellanerde        │ n            │
+│ w69146         │ weiße Tonerde        │ n            │
+│ w69149         │ Pfeifenerde          │ n            │
+│ w69358         │ Gartenerdbeere       │ n            │
+│ w92320         │ männerdominiert      │ a            │
+│ w100223        │ Designerdroge        │ n            │
+│ w103172        │ Seltenerdmagnet      │ n            │
+│ w106758        │ Seltenerdmetalle     │ n            │
+│ w110720        │ ebenerdig            │ a            │
+│ w26204         │ Schneidbrennerdüse   │ n            │
+│ w40189         │ Nerd                 │ n            │
+│ w51748         │ Zenerdiode           │ n            │
+│ w56117         │ innerdeutsche Grenze │ n            │
+│ w62204         │ Nerd                 │ n            │
+│ w69145         │ Porzellanerde        │ n            │
+│ w69146         │ weiße Tonerde        │ n            │
+│ w69149         │ Pfeifenerde          │ n            │
+│ w69358         │ Gartenerdbeere       │ n            │
+│ w92320         │ männerdominiert      │ a            │
+│ w100223        │ Designerdroge        │ n            │
+│ w103172        │ Seltenerdmagnet      │ n            │
+│ w106758        │ Seltenerdmetalle     │ n            │
+│ w110720        │ ebenerdig            │ a            │
+│ w26204         │ Schneidbrennerdüse   │ n            │
+│ w40189         │ Nerd                 │ n            │
+│ w51748         │ Zenerdiode           │ n            │
+│ w56117         │ innerdeutsche Grenze │ n            │
+│ w69145         │ Porzellanerde        │ n            │
+│ w69146         │ weiße Tonerde        │ n            │
+│ w69149         │ Pfeifenerde          │ n            │
+│ w69358         │ Gartenerdbeere       │ n            │
+│ w92320         │ männerdominiert      │ a            │
+│ w100223        │ Designerdroge        │ n            │
+│ w103172        │ Seltenerdmagnet      │ n            │
+│ w106758        │ Seltenerdmetalle     │ n            │
+│ w110720        │ ebenerdig            │ a            │
+│ w26204         │ Schneidbrennerdüse   │ n            │
+│ w40189         │ Nerd                 │ n            │
+│ w51748         │ Zenerdiode           │ n            │
+│ w56117         │ innerdeutsche Grenze │ n            │
+│ w69145         │ Porzellanerde        │ n            │
+│ w69146         │ weiße Tonerde        │ n            │
+│ w69149         │ Pfeifenerde          │ n            │
+│ w69358         │ Gartenerdbeere       │ n            │
+│ w92320         │ männerdominiert      │ a            │
+│ w100223        │ Designerdroge        │ n            │
+│ w103172        │ Seltenerdmagnet      │ n            │
+│ w106758        │ Seltenerdmetalle     │ n            │
+│ w110720        │ ebenerdig            │ a            │
+│ w26204         │ Schneidbrennerdüse   │ n            │
+│ w40189         │ Nerd                 │ n            │
+│ w51748         │ Zenerdiode           │ n            │
+│ w56117         │ innerdeutsche Grenze │ n            │
+│ w69145         │ Porzellanerde        │ n            │
+│ w69146         │ weiße Tonerde        │ n            │
+│ w69149         │ Pfeifenerde          │ n            │
+│ w69358         │ Gartenerdbeere       │ n            │
+│ w92320         │ männerdominiert      │ a            │
+│ w100223        │ Designerdroge        │ n            │
+│ w103172        │ Seltenerdmagnet      │ n            │
+│ w106758        │ Seltenerdmetalle     │ n            │
+│ w110720        │ ebenerdig            │ a            │
+│ w26204         │ Schneidbrennerdüse   │ n            │
+│ w40189         │ Nerd                 │ n            │
+│ w51748         │ Zenerdiode           │ n            │
+│ w56117         │ innerdeutsche Grenze │ n            │
 │ w69145         │ Porzellanerde        │ n            │
 │ w69146         │ weiße Tonerde        │ n            │
 │ w69149         │ Pfeifenerde          │ n            │
