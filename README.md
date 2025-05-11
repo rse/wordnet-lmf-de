@@ -186,7 +186,7 @@ Open DE WordNet 1.4 (2022-12-30) [118K words, CC-BY-SA-4.0]
 License
 -------
 
-Copyright (c) 2018-2023 Dr. Ralf S. Engelschall (http://engelschall.com/)
+Copyright (c) 2018-2025 Dr. Ralf S. Engelschall (http://engelschall.com/)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
